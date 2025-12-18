@@ -8,6 +8,7 @@ import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
