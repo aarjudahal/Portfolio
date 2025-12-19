@@ -8,10 +8,10 @@ export default function JourneyTimeline() {
         My Journey
       </h2>
 
-      <div className="relative mx-auto max-w-6xl px-6">
+      <div className="relative mx-auto max-w-6xl px-20">
         <div className="absolute left-1/2 top-0 h-full w-0.75 -translate-x-1/2 bg-cyan-400" />
 
-        <div className="space-y-24">
+        <div className="space-y-12">
           {journeyData.map((item, index) => (
             <motion.div
               key={`${item.year}-${index}`}
@@ -25,7 +25,7 @@ export default function JourneyTimeline() {
             >
               <div className="absolute left-1/2 z-10 h-4 w-4 -translate-x-1/2 rounded-full bg-cyan-400 ring-4 ring-[#0b1d4d]" />
 
-              <div className="max-w-md rounded-2xl bg-[#1a2f6f] p-6 shadow-lg">
+              <div className="w-md rounded-2xl bg-[#1a2f6f] p-6 shadow-lg">
                 <span className="mb-2 block text-sm font-semibold text-cyan-300">
                   {item.year}
                 </span>

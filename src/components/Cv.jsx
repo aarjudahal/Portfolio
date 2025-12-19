@@ -4,7 +4,7 @@ import { FaDownload, FaEye } from "react-icons/fa";
 
 export default function CV() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12 text-center">
+    <section className=" mx-auto px-6 py-12 text-center">
       {/* Section Title */}
       <h2 className="text-4xl font-bold text-blue-600 mb-10">My CV</h2>
       <p className="text-slate-600 mb-8">

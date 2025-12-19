@@ -79,10 +79,11 @@ export const journeyData = [
       "Began learning web development with HTML, CSS, and JavaScript 💻",
   },
   {
-    year: "2023",
-    title: "First Project",
-    description: "Ship Manager ⚛️",
-  },
+  year: "2023",
+  title: "First Project",
+  description: "Ship Manager 🚌📦 Backend system built in PHP for handling vessel records, cargo tracking, user roles, and database-driven operations."
+},
+
   {
     year: "2024",
     title: "Advanced Learning & Personal Projects",

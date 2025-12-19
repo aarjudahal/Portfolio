@@ -11,7 +11,7 @@ export default function AboutSection() {
   const [active, setActive] = useState("Story");
 
   return (
-    <section id="about" className="relative py-24 overflow-hidden">
+    <section id="about" className="relative py-15 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-purple-100 via-purple-300" />
 
       <div className="mx-auto max-w-6xl px-6">

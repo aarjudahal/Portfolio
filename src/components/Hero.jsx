@@ -17,7 +17,7 @@ export default function Hero() {
   }, []);
 
   return (
-   <section id="home" className="relative w-full bg-purple-100">
+   <section id="home" className="relative w-full bg-gradient-to-t from-purple-100 via-purple-200">
   {/* Inner container */}
   <div className="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-12 items-center">
     
