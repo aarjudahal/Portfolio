@@ -28,7 +28,7 @@ export const contacts = [
   {
     label: "Facebook",
     icon: <FaFacebook />,
-    link: "https://www.facebook.com/aarjudahal",
+    link: "https://www.facebook.com/Aarjudahal.80/",
     bg: "bg-blue-500",
     hover: "hover:bg-blue-600",
     description: "Follow me and stay updated!",
